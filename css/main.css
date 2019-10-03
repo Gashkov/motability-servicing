@@ -1,0 +1,490 @@
+/***************
+* off-road-suv *
+***************/
+.off-road {
+  color: #3e4b3c;
+  font-size: 24px;
+  overflow-y: hidden; }
+  @media (max-width: 1219px) {
+    .off-road {
+      font-size: 22px; } }
+  @media (max-width: 991px) {
+    .off-road {
+      font-size: 21px; } }
+  @media (max-width: 767px) {
+    .off-road {
+      font-size: 20px; } }
+  @media (max-width: 399px) {
+    .off-road {
+      font-size: 18px; } }
+  .off-road .container {
+    max-width: 1100px;
+    padding: 0 15px; }
+  .off-road img {
+    width: 100%; }
+  .off-road a {
+    color: #b28f7f;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out; }
+    .off-road a:hover {
+      color: #e25b1d; }
+  .off-road p {
+    line-height: 1.5;
+    margin: 0 0 30px; }
+    @media (max-width: 1219px) {
+      .off-road p {
+        margin: 0 0 20px; } }
+  .off-road .hero-section {
+    background: url(../images/or_hero_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 75px 0 30px; }
+    @media (max-width: 1219px) {
+      .off-road .hero-section {
+        padding: 40px 0 20px; } }
+    .off-road .hero-section h1 {
+      border: 6px solid #3e4b3c;
+      color: #3e4b3c;
+      font-size: 48px;
+      font-weight: 600;
+      padding: 23px 35px;
+      line-height: 1;
+      max-width: 640px;
+      margin: 0 0 70px; }
+      @media (max-width: 1219px) {
+        .off-road .hero-section h1 {
+          padding: 15px;
+          margin: 0 auto 20px;
+          text-align: center;
+          background: #fff; } }
+      @media (max-width: 767px) {
+        .off-road .hero-section h1 {
+          padding: 10px;
+          font-size: 38px; } }
+      .off-road .hero-section h1 span {
+        display: block;
+        font-size: 72px;
+        font-weight: 900; }
+        @media (max-width: 767px) {
+          .off-road .hero-section h1 span {
+            font-size: 48px; } }
+    .off-road .hero-section .car-wrap {
+      position: relative; }
+      .off-road .hero-section .car-wrap.land-rover {
+        left: 55%;
+        width: 25%; }
+        @media (max-width: 1219px) {
+          .off-road .hero-section .car-wrap.land-rover {
+            width: 35%; } }
+        @media (max-width: 767px) {
+          .off-road .hero-section .car-wrap.land-rover {
+            left: 27%;
+            width: 70%;
+            margin: 0 0 70px; } }
+        .off-road .hero-section .car-wrap.land-rover h2 {
+          top: 100%;
+          right: 0%; }
+      .off-road .hero-section .car-wrap.jeep {
+        left: 15%;
+        width: 27%; }
+        @media (max-width: 1219px) {
+          .off-road .hero-section .car-wrap.jeep {
+            width: 38%; } }
+        @media (max-width: 767px) {
+          .off-road .hero-section .car-wrap.jeep {
+            left: 5%;
+            width: 70%;
+            margin: 0 0 70px; } }
+        .off-road .hero-section .car-wrap.jeep h2 {
+          top: 100%;
+          left: 40%; }
+      .off-road .hero-section .car-wrap.audi {
+        left: 55%;
+        margin: -90px 0 0;
+        width: 35%; }
+        @media (max-width: 1219px) {
+          .off-road .hero-section .car-wrap.audi {
+            margin: 0;
+            width: 43%; } }
+        @media (max-width: 767px) {
+          .off-road .hero-section .car-wrap.audi {
+            left: 13%;
+            width: 80%;
+            margin: 0 0 70px; } }
+        .off-road .hero-section .car-wrap.audi h2 {
+          top: 100%;
+          left: 60%; }
+          @media (max-width: 767px) {
+            .off-road .hero-section .car-wrap.audi h2 {
+              top: 100%;
+              left: 40%; } }
+      .off-road .hero-section .car-wrap.seat {
+        left: 0%;
+        margin: -50px 0 50px;
+        width: 48%; }
+        @media (max-width: 767px) {
+          .off-road .hero-section .car-wrap.seat {
+            margin: 15px 0 80px;
+            width: 90%; } }
+        .off-road .hero-section .car-wrap.seat h2 {
+          top: 70%;
+          left: 97%; }
+          @media (max-width: 767px) {
+            .off-road .hero-section .car-wrap.seat h2 {
+              top: 100%;
+              left: 27%; } }
+      .off-road .hero-section .car-wrap.vw {
+        left: 25%;
+        width: 42%; }
+        @media (max-width: 1219px) {
+          .off-road .hero-section .car-wrap.vw {
+            width: 48%; } }
+        @media (max-width: 767px) {
+          .off-road .hero-section .car-wrap.vw {
+            margin: 0 0 70px;
+            width: 90%;
+            left: 5%; } }
+        .off-road .hero-section .car-wrap.vw h2 {
+          top: 0%;
+          left: 87%; }
+          @media (max-width: 767px) {
+            .off-road .hero-section .car-wrap.vw h2 {
+              top: 100%;
+              left: 27%; } }
+      .off-road .hero-section .car-wrap h2 {
+        position: absolute;
+        display: inline-block;
+        background: #3e4b3c;
+        color: #fff;
+        line-height: 1;
+        padding: 10px 17px 10px 20px;
+        z-index: 3; }
+        @media (max-width: 1219px) {
+          .off-road .hero-section .car-wrap h2 {
+            font-size: 19px; } }
+        .off-road .hero-section .car-wrap h2 span {
+          display: block;
+          font-size: 24px;
+          font-weight: 900;
+          white-space: nowrap; }
+          @media (max-width: 1219px) {
+            .off-road .hero-section .car-wrap h2 span {
+              font-size: 22px; } }
+        .off-road .hero-section .car-wrap h2:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          width: 97%;
+          height: 62px;
+          z-index: -2;
+          bottom: 7%;
+          right: 5%; }
+          @media (max-width: 1219px) {
+            .off-road .hero-section .car-wrap h2:before {
+              height: 55px; } }
+        .off-road .hero-section .car-wrap h2:after {
+          content: '';
+          position: absolute;
+          background: #3e4b3c;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: -1; }
+  .off-road .intro-section {
+    background: url(../images/or_intro_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0 100px;
+    margin: 0 0 100px; }
+    @media (max-width: 1219px) {
+      .off-road .intro-section {
+        background-position: top;
+        padding: 150px 0;
+        margin: 0 0 60px; } }
+    @media (max-width: 767px) {
+      .off-road .intro-section {
+        padding: 120px 0 50px; } }
+    .off-road .intro-section .txt {
+      color: #fff;
+      padding: 15px;
+      margin: 0 0 0 -15px;
+      max-width: 510px; }
+      @media (max-width: 1219px) {
+        .off-road .intro-section .txt {
+          margin: 0;
+          max-width: 450px; } }
+      @media (max-width: 991px) {
+        .off-road .intro-section .txt {
+          background: rgba(190, 157, 142, 0.8);
+          max-width: none;
+          margin: 0;
+          text-align: center; } }
+  .off-road .car-section {
+    margin: 0 0 100px; }
+    @media (max-width: 1219px) {
+      .off-road .car-section {
+        margin: 0 0 60px; } }
+    @media (max-width: 767) {
+      .off-road .car-section {
+        margin: 0 0 40px; } }
+    .off-road .car-section .two-cols {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin: -270px -40px 50px; }
+      @media (max-width: 1219px) {
+        .off-road .car-section .two-cols {
+          margin: -100px -15px 20px; } }
+      @media (max-width: 767px) {
+        .off-road .car-section .two-cols {
+          margin: 0 0 20px; } }
+      .off-road .car-section .two-cols .col {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 50%; }
+        @media (max-width: 767px) {
+          .off-road .car-section .two-cols .col {
+            width: 100%; } }
+        @media (max-width: 1219px) {
+          .off-road .car-section .two-cols .col:first-child {
+            padding: 0 15px 0 0; } }
+        @media (max-width: 767px) {
+          .off-road .car-section .two-cols .col:first-child {
+            padding: 0; } }
+        @media (max-width: 1219px) {
+          .off-road .car-section .two-cols .col:last-child {
+            padding: 0 0 0 15px; } }
+        @media (max-width: 767px) {
+          .off-road .car-section .two-cols .col:last-child {
+            padding: 0; } }
+      .off-road .car-section .two-cols .name-wrap {
+        display: inline;
+        padding: 17px 30px 17px 0;
+        border: 6px solid #3e4b3c;
+        margin: 80px 0 50px; }
+        @media (max-width: 1219px) {
+          .off-road .car-section .two-cols .name-wrap {
+            padding: 15px 15px 15px 0;
+            margin: 50px 0 20px; } }
+        @media (max-width: 767px) {
+          .off-road .car-section .two-cols .name-wrap {
+            margin: 0 0 20px; } }
+        .off-road .car-section .two-cols .name-wrap .name {
+          color: #3e4b3c;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          background: #fff;
+          font-size: 40px;
+          padding: 5px 0;
+          margin: 0 0 0 -9px;
+          line-height: 1.2; }
+          @media (max-width: 1219px) {
+            .off-road .car-section .two-cols .name-wrap .name {
+              margin: 0 0 0 -6px;
+              font-size: 35px; } }
+          @media (max-width: 767px) {
+            .off-road .car-section .two-cols .name-wrap .name {
+              line-height: 1;
+              padding: 0;
+              font-size: 30px; } }
+          .off-road .car-section .two-cols .name-wrap .name .model {
+            font-size: 50px;
+            font-weight: 700; }
+            @media (max-width: 1219px) {
+              .off-road .car-section .two-cols .name-wrap .name .model {
+                font-size: 39px; } }
+            @media (max-width: 767px) {
+              .off-road .car-section .two-cols .name-wrap .name .model {
+                font-size: 35px; } }
+      .off-road .car-section .two-cols .content-img {
+        margin: 0 0 30px; }
+      .off-road .car-section .two-cols .title-wrap {
+        color: #fff;
+        background: #b28f7f;
+        font-size: 20px;
+        margin: 0 0 3px;
+        padding: 30px 35px 20px; }
+        .off-road .car-section .two-cols .title-wrap span {
+          display: block; }
+        .off-road .car-section .two-cols .title-wrap .list-subtitle {
+          font-size: 30px;
+          font-weight: 700; }
+      .off-road .car-section .two-cols .specification-list {
+        color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%; }
+        .off-road .car-section .two-cols .specification-list li {
+          padding: 25px;
+          border-bottom: 3px solid #fff; }
+          @media (max-width: 1219px) {
+            .off-road .car-section .two-cols .specification-list li {
+              padding: 20px; } }
+          .off-road .car-section .two-cols .specification-list li:last-child {
+            border-bottom: none; }
+          .off-road .car-section .two-cols .specification-list li .name {
+            display: block;
+            font-size: 14px; }
+          .off-road .car-section .two-cols .specification-list li .description {
+            display: block;
+            font-size: 18px;
+            font-weight: 700; }
+    .off-road .car-section .bottom-photo {
+      padding-top: calc(670 / 1360 * 100%); }
+    .off-road .car-section .discover {
+      color: #fff;
+      display: block;
+      font-weight: 700;
+      text-align: center;
+      margin: 0 auto;
+      background: #b28f7f;
+      margin: 0 auto;
+      padding: 40px;
+      -webkit-transition: background .3s ease-in-out;
+      transition: background .3s ease-in-out; }
+      @media (max-width: 1219px) {
+        .off-road .car-section .discover {
+          margin: 0 auto 30px;
+          padding: 20px; } }
+      @media (max-width: 767px) {
+        .off-road .car-section .discover {
+          padding: 15px 10px; } }
+      .off-road .car-section .discover:hover {
+        background: #e25b1d;
+        text-decoration: none; }
+  .off-road .car-section.land-rover .name-wrap {
+    max-width: 450px; }
+    @media (max-width: 767px) {
+      .off-road .car-section.land-rover .name-wrap {
+        max-width: none; } }
+  .off-road .car-section.land-rover .specification-list {
+    background: url(../images/or_land_rover_specification_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .car-section.land-rover .bottom-photo {
+    background: url(../images/or_land_rover_bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  @media (max-width: 1439px) {
+    .off-road .car-section.jeep .two-cols {
+      margin: -200px -40px 50px; } }
+  @media (max-width: 1219px) {
+    .off-road .car-section.jeep .two-cols {
+      margin: -100px -15px 20px; } }
+  @media (max-width: 767px) {
+    .off-road .car-section.jeep .two-cols {
+      margin: -30px 0 20px; } }
+  .off-road .car-section.jeep .name-wrap {
+    max-width: 300px; }
+    @media (max-width: 767px) {
+      .off-road .car-section.jeep .name-wrap {
+        max-width: none; } }
+  .off-road .car-section.jeep .specification-list {
+    background: url(../images/or_jeep_specification_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .car-section.jeep .bottom-photo {
+    background: url(../images/or_jeep_bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .car-section.audi .two-cols {
+    margin: -170px -40px 50px; }
+    @media (max-width: 1439px) {
+      .off-road .car-section.audi .two-cols {
+        margin: -140px -40px 50px; } }
+    @media (max-width: 1219px) {
+      .off-road .car-section.audi .two-cols {
+        margin: -50px -15px 20px; } }
+    @media (max-width: 767px) {
+      .off-road .car-section.audi .two-cols {
+        margin: -20px 0 20px; } }
+  .off-road .car-section.audi .name-wrap {
+    max-width: 150px; }
+    @media (max-width: 767px) {
+      .off-road .car-section.audi .name-wrap {
+        max-width: none; } }
+  .off-road .car-section.audi .specification-list {
+    background: url(../images/or_audi_specification_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .car-section.audi .bottom-photo {
+    background: url(../images/or_audi_bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  @media (max-width: 767px) {
+    .off-road .car-section.seat .two-cols {
+      margin: -40px 0 20px; } }
+  .off-road .car-section.seat .name-wrap {
+    max-width: 250px; }
+    @media (max-width: 767px) {
+      .off-road .car-section.seat .name-wrap {
+        max-width: none; } }
+  .off-road .car-section.seat .specification-list {
+    background: url(../images/or_seat_specification_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .car-section.seat .bottom-photo {
+    background: url(../images/or_seat_bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .car-section.vw .two-cols {
+    margin: -170px -40px 50px; }
+    @media (max-width: 1219px) {
+      .off-road .car-section.vw .two-cols {
+        margin: -50px -15px 20px; } }
+    @media (max-width: 767px) {
+      .off-road .car-section.vw .two-cols {
+        margin: 0 0 20px; } }
+  .off-road .car-section.vw .name-wrap {
+    max-width: 450px; }
+  .off-road .car-section.vw .specification-list {
+    background: url(../images/or_vw_specification_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .car-section.vw .bottom-photo {
+    background: url(../images/or_vw_bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .off-road .footer-info-section {
+    padding: 0 0 80px; }
+    @media (max-width: 1219px) {
+      .off-road .footer-info-section {
+        padding: 0 0 40px; } }
+    .off-road .footer-info-section .container {
+      max-width: 1070px; }
+    .off-road .footer-info-section .footnote {
+      font-size: 16px; }
